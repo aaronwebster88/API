@@ -1,0 +1,15 @@
+.jumbotron{
+    background: url('../assets/images/iridium8-jumbotron.jpg') center bottom;
+    background-size: cover;
+    height: 100vh;
+}
+
+#jumboHeader {
+    font-family: 'Oswald', sans-serif;
+    color: #efefef;
+    font-size: 190px;
+    letter-spacing: .4em;
+    text-align: center;
+    margin-top: 120px;
+    opacity: .5;
+}

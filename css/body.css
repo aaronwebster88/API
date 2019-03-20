@@ -1,0 +1,78 @@
+body {
+    background-color: var(--black);
+    overflow: hidden;
+    margin: 0;
+}
+
+#headingOne {
+    background: url('/assets/images/falcon-1-header.jpg') right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -120px;
+}
+
+#headingTwo {
+    background: url('/assets/images/falcon-9-header.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -50px;
+}
+
+#headingThree {
+    background: url('/assets/images/falcon-H-header.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -50px;
+}
+
+#headingFour {
+    background: url('/assets/images/falcon-BFR-header.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -5px;
+}
+
+.container-fluid {
+    margin: 0;
+}
+
+button h2{
+    color: white;
+    text-align: left;
+    z-index: 2;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+img {
+   height: 100%;
+   width: 100%;
+   border-radius: 1%;
+}
+
+.modal-header{
+    background-color: #343a40;
+    border: none;
+}
+.modal-body {
+    background-color: #343a40;
+    border: none;
+}
+
+.accordion {
+    border: none;
+}
+
+.card {
+    border: none;
+}
+
+p {
+    font-size: 12px;
+}
+
